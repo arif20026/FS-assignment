@@ -1,11 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles/flower.css  "> -->
+    <link rel="stylesheet" href="styles/flower.css">
+
+
+    <style>
+        .footer-header {
+            padding: 128px 0px;
+            font-family: Lato;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .footer-paragraph {
+            color: rgba(255, 255, 255, 0.90);
+
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 166.667% */
+            width: 625px;
+            padding: 0px 649px 20px 648px;
+        }
+
+        .footer-copyright {
+            color: rgba(255, 255, 255, 0.40);
+            text-align: center;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* padding: 0px 783px 128px 784px; */
+        }
+
+        .subscribe-button {
+            width: 88px;
+            height: 27.429px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Lato;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            
+        }
+
+        .latest-deal button {
+            width: 150px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #E55473;
+            border: 0px;
+            
+        }
+
+        input[type=text] {
+            width: 700px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FFF;
+            border: none;
+            padding: 0px 16px 0px 60px;
+
+        }
+
+
+
+        .input-button button {
+            position: relative;
+            left: 500px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <div class="header">
+            <div>
+                <h3>Let's make beautiful flowers a part of your life.</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters.</p>
+                <button class="primary-button">Shop Now</button>
+            </div>
+            <img class="first-pic" src="images/pngwing 10.png" alt="" " >
+        </div>
+
+
+    </header>
+    <main>
+        <div style=" height: 1091px;width: 1920px;">
+            <h3 style="text-align: center;" class="featured-flower-heading">Our Featured Flowers
+            </h3>
+            <p style="text-align: center;" class="featured-flower-description">It is a long established fact that a
+                reader will be distracted by the
+                readable content of a page when looking at its layout.
+            </p>
+            <div class="featured-flowers-images ">
+                <figure>
+                    <img src="images/pngwing 6.png" alt="" class="featured-flower-pic1">
+                    <figcaption style="text-align: center;" class="figcaption"><u>Pink Flower Tree</u></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pngwing 5.png" alt=""
+                        style="width: 370px;height: 370px;background-color: rgba(5, 151, 160, 0.15);border-radius: 300px 300px 0px 0px;"
+                        class="featured-flower-pic2">
+                    <figcaption style="text-align: center;" class="figcaption"><u>Pink Flower Tree</u></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pngwing 7.png" alt=""
+                        style="width: 370px;height: 370px;background-color: rgba(5, 151, 160, 0.15);border-radius: 300px 300px 0px 0px;"
+                        class="featured-flower-pic3">
+                    <figcaption style="text-align: center;" class="figcaption"><u>Pink Flower Tree</u></figcaption>
+                </figure>
+
+
+            </div>
+        </div>
+
+        <!-- sameday delivery section -->
+        <!-- <div class="sameday-delivery">
+            <figure class="figure1">
+                <img src="Flower Asset/Group 57.png" alt="" class="sameday-delivery-pic1">
+                <figcaption class="sameday-delivery-pic-caption1" ;">Same Day Delivery. Click & Collect.</figcaption>
+            </figure>
+            <figure class="figure2">
+                <img src="Flower Asset/Group 58.png" alt="" class="sameday-delivery-pic2" >
+                <figcaption class="sameday-delivery-pic-caption2">Fresh Flowers. Local Growers.</figcaption>
+            </figure>
+            <figure class="figure3">
+                <img src="Flower Asset/Group 59.png" alt="" class="sameday-delivery-pic3">
+                <figcaption class="sameday-delivery-pic-caption3">24/7 Free Support.</figcaption>
+            </figure>
+
+        </div> -->
+
+        <!-- hot deal section -->
+        <div class="hot-deal">
+
+            <div style="text-align: center;">
+                <h3 class="hot-deal-heading">Hot Deal ! Sale Up To 25% <span class="off"> Off</span></h3>
+                <p class="hot-deal-writing">It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout.</p>
+                <button class="hot-deal-button">Sign Up</button>
+
+            </div>
+            <img src="images/pngwing 8.png" alt="" class="hot-deal-image">
+
+
+        </div>
+
+        <!-- Instragram section -->
+
+        <div class="instagram-section">
+            <h3 class="instagram">Instagram
+
+            </h3>
+            <p class="instragram-paragraph">It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout.
+
+            </p>
+            <div class="instagram-section-pic">
+                <img src="images/Flower 01.png" alt="">
+                <img src="images/Rectangle 4.png" alt="">
+                <img src="images/Rectangle 5.png" alt="">
+                <img src="images/Rectangle 6.png" alt="">
+            </div>
+
+
+        </div>
+
+
+        <!-- free delivery section  -->
+
+        <div class="free-home-delivery">
+            <h3 class="free-home-delivery-heading"> <span class="free">Free </span>Home delivery!</h3>
+            <p class="free-home-delivery-writing">Free home delivery service will be provided incase of purchasing more
+                than <span class="dollar">$100</span></p>
+
+        </div>
+
+        <!-- get the latest deal section  -->
+        <div class="latest-deal">
+
+            <h3 class="latest-deal-header">Get The Latest Deals</h3>
+            <p class="latest-deal-paragraph">$30 coupon for first shopping</p>
+
+            <input type="text" placeholder="Enter your email here...." class="input-email">
+
+            <button class="subscribe-button">Subscribe</button>
+        </div>
+        </main>
+        <footer>
+            <div class="footer" style="width: 1922px;
+            height: 449px;
+            flex-shrink: 0;
+            background-color: #111010; text-align: center;margin-top: 0;">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h style="color: #FFF;" class="footer-header"><span style="color: #E55473;">Flower</span>Shop</h>
+                <p style="color: rgba(255, 255, 255, 0.90);" class="footer-paragraph">It is a long established fact that
+                    a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <small style="color: rgba(255, 255, 255, 0.40);" class="footer-copyright">@2020-2023, FlowerShop.com.
+                    All rights reserved. </small>
+            </div>
+
+
+        </footer>
 </body>
+
 </html>

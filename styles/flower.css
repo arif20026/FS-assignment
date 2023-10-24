@@ -1,0 +1,454 @@
+/* Common Shared Syle */
+.primary-button {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 43px;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header section styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    padding: 197px 97px 147px 240px;
+}
+
+.first-pic {
+    width: 250px;
+    height: 400px;
+    /* margin: 50px 240px 0px 97px; */
+
+}
+
+header h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+
+header p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 634px;
+}
+
+.header .first-pic {
+    /* width: 635px;
+    height: 800px; */
+    /* margin: 50px 240px 0px 97px; */
+}
+
+.featured-flowers-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-flower-heading {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 178px 764px 0px 764px;
+}
+
+.featured-flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    /* width: 594px; */
+    padding: 10px 663px 48px 663px;
+
+}
+
+.figcaption {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    /* text-decoration-line: underline; */
+    padding-top: 32px;
+}
+
+.featured-flower-pic1 {
+    /* padding: 0px 24px 0px 240px; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+
+/* sameday delivery section */
+.sameday-delivery {
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px 128px 240px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+}
+
+figcaption {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+}
+
+/* .figure1{
+    text-align: center;
+}
+.figure2{
+    text-align: center;
+}
+.figure3{
+    text-align: center;
+} */
+/* 
+.sameday-delivery-pic1 {
+    padding: 86px 356px 24px 317px;
+}
+
+.sameday-delivery-pic2 {
+    padding: 86px 221px 24px 0px;
+}
+
+.sameday-delivery-pic3 {
+    padding: 86px 232px 24px 0px;
+}
+
+.sameday-delivery-pic-caption {
+    /* text-align: left; */
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+/* 145.833% */
+}
+
+/* div > figure{
+    text-align: center;
+} */
+.sameday-delivery-pic-caption1 {
+    /* padding: 0px 75px 87px 200px; */
+    position: fixed;
+    top: 198px;
+    right: 893px;
+    bottom: 87px;
+    left: 175px;
+}
+
+.sameday-delivery-pic-caption2 {
+    padding: 0px 100px 87px 0px;
+}
+
+.sameday-delivery-pic-caption3 {
+    padding: 0px 175px 87px 0px;
+    */
+}
+
+/* hot deal section */
+.hot-deal {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+
+
+
+}
+
+.hot-deal-image {
+    padding: 100px 429px 100px 186px;
+}
+
+.hot-deal-heading {
+    padding: 230px 0px 24px 423px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.off {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-deal-writing {
+    padding: 0px 0px 32px 395px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.hot-deal-button {
+    padding: 20px 43px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hot-deal button {
+    position: relative;
+    left: 200px;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+}
+
+/* instagram section */
+.instagram-section {
+    margin: 128px 240px;
+    height: 576px;
+    width: 1440px;
+}
+
+.instagram-section-pic {
+    justify-content: space-around;
+    display: flex;
+}
+
+.instagram {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 0px 630px;
+}
+
+.instragram-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 594px;
+    padding: 5px 423px 48px 423px;
+}
+
+/* free home delivery section  */
+
+.free-home-delivery {
+    width: 1922px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 128px 0px;
+    text-align: center;
+}
+
+.free-home-delivery-heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 40px;
+}
+
+.free-home-delivery-writing {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.free {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dollar {
+    color: #E55473;
+}
+
+
+/* latest-deal section  */
+
+
+.input-button {
+    display: flex;
+}
+
+.latest-deal {
+    text-align: center;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url('../images/Rectangle\ 9.png');
+    margin: 128px 240px;
+
+}
+
+.latest-deal-header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 122px 0px 0px 0px;
+}
+
+.latest-deal-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 0px 0px 16px 0px
+}
+
+/* .latest-deal input{
+    padding: 48px 16px 121px 287px;
+
+}
+.latest-deal button{
+    padding: 48px 287px 121px 16px; */
+}
+
+.input-button input {
+    padding: 48px 16px 121px 287px;
+}
+
+
+.input-button button {
+    position: relative;
+    left: 500px;
+}
+
+.input-email {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.subscribe-button {
+    width: 88px;
+    height: 27.429px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.latest-deal>button {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+/* footer section  */
+
+
+
+/* .footer {
+            width: 1922px;
+            height: 449px;
+            flex-shrink: 0;
+            background-color: #111010;
+            
+
+        } */
